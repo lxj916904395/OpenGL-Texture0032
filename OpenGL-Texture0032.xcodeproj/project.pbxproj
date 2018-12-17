@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D33C22A21C7837A00DB0096 /* son.tga in Resources */ = {isa = PBXBuildFile; fileRef = 4D33C22821C7837A00DB0096 /* son.tga */; };
+		4DA0922D21C7672E009F18DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA0922C21C7672E009F18DB /* Assets.xcassets */; };
+		4DA0923021C7672E009F18DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA0922E21C7672E009F18DB /* Main.storyboard */; };
+		4DA0923321C7672E009F18DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0923221C7672E009F18DB /* main.cpp */; };
+		4DA0923E21C7672F009F18DB /* OpenGL_Texture0032Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0923D21C7672F009F18DB /* OpenGL_Texture0032Tests.m */; };
+		4DA0924921C7672F009F18DB /* OpenGL_Texture0032UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0924821C7672F009F18DB /* OpenGL_Texture0032UITests.m */; };
+		4DA0925821C76746009F18DB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA0925721C76746009F18DB /* OpenGL.framework */; };
+		4DA0925A21C7674C009F18DB /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA0925921C7674C009F18DB /* GLUT.framework */; };
+		4DA0926C21C7675F009F18DB /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA0926B21C7675F009F18DB /* libGLTools.a */; };
+		4DA0927621C76C16009F18DB /* Marslike.tga in Resources */ = {isa = PBXBuildFile; fileRef = 4DA0927221C76C16009F18DB /* Marslike.tga */; };
+		4DA0927721C76C16009F18DB /* Marble.tga in Resources */ = {isa = PBXBuildFile; fileRef = 4DA0927321C76C16009F18DB /* Marble.tga */; };
+		4DA0927821C76C16009F18DB /* MoonLike.tga in Resources */ = {isa = PBXBuildFile; fileRef = 4DA0927421C76C16009F18DB /* MoonLike.tga */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DA0923A21C7672F009F18DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA0921B21C7672E009F18DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DA0922221C7672E009F18DB;
+			remoteInfo = "OpenGL-Texture0032";
+		};
+		4DA0924521C7672F009F18DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA0921B21C7672E009F18DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DA0922221C7672E009F18DB;
+			remoteInfo = "OpenGL-Texture0032";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D33C22821C7837A00DB0096 /* son.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = son.tga; sourceTree = "<group>"; };
+		4DA0922321C7672E009F18DB /* OpenGL-Texture0032.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-Texture0032.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA0922C21C7672E009F18DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DA0922F21C7672E009F18DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DA0923121C7672E009F18DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA0923221C7672E009F18DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4DA0923421C7672E009F18DB /* OpenGL_Texture0032.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL_Texture0032.entitlements; sourceTree = "<group>"; };
+		4DA0923921C7672F009F18DB /* OpenGL-Texture0032Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-Texture0032Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA0923D21C7672F009F18DB /* OpenGL_Texture0032Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_Texture0032Tests.m; sourceTree = "<group>"; };
+		4DA0923F21C7672F009F18DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA0924421C7672F009F18DB /* OpenGL-Texture0032UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL-Texture0032UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA0924821C7672F009F18DB /* OpenGL_Texture0032UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGL_Texture0032UITests.m; sourceTree = "<group>"; };
+		4DA0924A21C7672F009F18DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA0925721C76746009F18DB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4DA0925921C7674C009F18DB /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		4DA0925C21C7675A009F18DB /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		4DA0925D21C7675A009F18DB /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		4DA0925E21C7675A009F18DB /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		4DA0925F21C7675A009F18DB /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		4DA0926021C7675A009F18DB /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		4DA0926121C7675A009F18DB /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		4DA0926221C7675A009F18DB /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		4DA0926321C7675A009F18DB /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		4DA0926421C7675A009F18DB /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		4DA0926521C7675A009F18DB /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		4DA0926721C7675A009F18DB /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		4DA0926821C7675A009F18DB /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		4DA0926921C7675A009F18DB /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		4DA0926A21C7675A009F18DB /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		4DA0926B21C7675F009F18DB /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		4DA0927021C767F8009F18DB /* GLHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLHeader.h; sourceTree = "<group>"; };
+		4DA0927221C76C16009F18DB /* Marslike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marslike.tga; sourceTree = "<group>"; };
+		4DA0927321C76C16009F18DB /* Marble.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marble.tga; sourceTree = "<group>"; };
+		4DA0927421C76C16009F18DB /* MoonLike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = MoonLike.tga; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DA0922021C7672E009F18DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA0926C21C7675F009F18DB /* libGLTools.a in Frameworks */,
+				4DA0925A21C7674C009F18DB /* GLUT.framework in Frameworks */,
+				4DA0925821C76746009F18DB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA0923621C7672F009F18DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA0924121C7672F009F18DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA0921A21C7672E009F18DB = {
+			isa = PBXGroup;
+			children = (
+				4DA0922521C7672E009F18DB /* OpenGL-Texture0032 */,
+				4DA0923C21C7672F009F18DB /* OpenGL-Texture0032Tests */,
+				4DA0924721C7672F009F18DB /* OpenGL-Texture0032UITests */,
+				4DA0922421C7672E009F18DB /* Products */,
+				4DA0925621C76745009F18DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DA0922421C7672E009F18DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DA0922321C7672E009F18DB /* OpenGL-Texture0032.app */,
+				4DA0923921C7672F009F18DB /* OpenGL-Texture0032Tests.xctest */,
+				4DA0924421C7672F009F18DB /* OpenGL-Texture0032UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DA0922521C7672E009F18DB /* OpenGL-Texture0032 */ = {
+			isa = PBXGroup;
+			children = (
+				4DA0927121C76B02009F18DB /* tga */,
+				4DA0925B21C76759009F18DB /* include */,
+				4DA0922C21C7672E009F18DB /* Assets.xcassets */,
+				4DA0922E21C7672E009F18DB /* Main.storyboard */,
+				4DA0923121C7672E009F18DB /* Info.plist */,
+				4DA0923221C7672E009F18DB /* main.cpp */,
+				4DA0923421C7672E009F18DB /* OpenGL_Texture0032.entitlements */,
+			);
+			path = "OpenGL-Texture0032";
+			sourceTree = "<group>";
+		};
+		4DA0923C21C7672F009F18DB /* OpenGL-Texture0032Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DA0923D21C7672F009F18DB /* OpenGL_Texture0032Tests.m */,
+				4DA0923F21C7672F009F18DB /* Info.plist */,
+			);
+			path = "OpenGL-Texture0032Tests";
+			sourceTree = "<group>";
+		};
+		4DA0924721C7672F009F18DB /* OpenGL-Texture0032UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DA0924821C7672F009F18DB /* OpenGL_Texture0032UITests.m */,
+				4DA0924A21C7672F009F18DB /* Info.plist */,
+			);
+			path = "OpenGL-Texture0032UITests";
+			sourceTree = "<group>";
+		};
+		4DA0925621C76745009F18DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DA0926B21C7675F009F18DB /* libGLTools.a */,
+				4DA0925921C7674C009F18DB /* GLUT.framework */,
+				4DA0925721C76746009F18DB /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DA0925B21C76759009F18DB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4DA0925C21C7675A009F18DB /* GLBatchBase.h */,
+				4DA0925D21C7675A009F18DB /* math3d.h */,
+				4DA0925E21C7675A009F18DB /* GLTriangleBatch.h */,
+				4DA0925F21C7675A009F18DB /* GLBatch.h */,
+				4DA0926021C7675A009F18DB /* GLMatrixStack.h */,
+				4DA0926121C7675A009F18DB /* GLFrame.h */,
+				4DA0926221C7675A009F18DB /* GLFrustum.h */,
+				4DA0926321C7675A009F18DB /* GLGeometryTransform.h */,
+				4DA0926421C7675A009F18DB /* GLShaderManager.h */,
+				4DA0926521C7675A009F18DB /* StopWatch.h */,
+				4DA0926621C7675A009F18DB /* GL */,
+				4DA0926A21C7675A009F18DB /* GLTools.h */,
+				4DA0927021C767F8009F18DB /* GLHeader.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4DA0926621C7675A009F18DB /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				4DA0926721C7675A009F18DB /* glxew.h */,
+				4DA0926821C7675A009F18DB /* wglew.h */,
+				4DA0926921C7675A009F18DB /* glew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		4DA0927121C76B02009F18DB /* tga */ = {
+			isa = PBXGroup;
+			children = (
+				4D33C22821C7837A00DB0096 /* son.tga */,
+				4DA0927321C76C16009F18DB /* Marble.tga */,
+				4DA0927221C76C16009F18DB /* Marslike.tga */,
+				4DA0927421C76C16009F18DB /* MoonLike.tga */,
+			);
+			path = tga;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DA0922221C7672E009F18DB /* OpenGL-Texture0032 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA0924D21C7672F009F18DB /* Build configuration list for PBXNativeTarget "OpenGL-Texture0032" */;
+			buildPhases = (
+				4DA0921F21C7672E009F18DB /* Sources */,
+				4DA0922021C7672E009F18DB /* Frameworks */,
+				4DA0922121C7672E009F18DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-Texture0032";
+			productName = "OpenGL-Texture0032";
+			productReference = 4DA0922321C7672E009F18DB /* OpenGL-Texture0032.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DA0923821C7672F009F18DB /* OpenGL-Texture0032Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA0925021C7672F009F18DB /* Build configuration list for PBXNativeTarget "OpenGL-Texture0032Tests" */;
+			buildPhases = (
+				4DA0923521C7672F009F18DB /* Sources */,
+				4DA0923621C7672F009F18DB /* Frameworks */,
+				4DA0923721C7672F009F18DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA0923B21C7672F009F18DB /* PBXTargetDependency */,
+			);
+			name = "OpenGL-Texture0032Tests";
+			productName = "OpenGL-Texture0032Tests";
+			productReference = 4DA0923921C7672F009F18DB /* OpenGL-Texture0032Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DA0924321C7672F009F18DB /* OpenGL-Texture0032UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA0925321C7672F009F18DB /* Build configuration list for PBXNativeTarget "OpenGL-Texture0032UITests" */;
+			buildPhases = (
+				4DA0924021C7672F009F18DB /* Sources */,
+				4DA0924121C7672F009F18DB /* Frameworks */,
+				4DA0924221C7672F009F18DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DA0924621C7672F009F18DB /* PBXTargetDependency */,
+			);
+			name = "OpenGL-Texture0032UITests";
+			productName = "OpenGL-Texture0032UITests";
+			productReference = 4DA0924421C7672F009F18DB /* OpenGL-Texture0032UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DA0921B21C7672E009F18DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					4DA0922221C7672E009F18DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4DA0923821C7672F009F18DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4DA0922221C7672E009F18DB;
+					};
+					4DA0924321C7672F009F18DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4DA0922221C7672E009F18DB;
+					};
+				};
+			};
+			buildConfigurationList = 4DA0921E21C7672E009F18DB /* Build configuration list for PBXProject "OpenGL-Texture0032" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DA0921A21C7672E009F18DB;
+			productRefGroup = 4DA0922421C7672E009F18DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA0922221C7672E009F18DB /* OpenGL-Texture0032 */,
+				4DA0923821C7672F009F18DB /* OpenGL-Texture0032Tests */,
+				4DA0924321C7672F009F18DB /* OpenGL-Texture0032UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DA0922121C7672E009F18DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA0927621C76C16009F18DB /* Marslike.tga in Resources */,
+				4DA0922D21C7672E009F18DB /* Assets.xcassets in Resources */,
+				4DA0923021C7672E009F18DB /* Main.storyboard in Resources */,
+				4D33C22A21C7837A00DB0096 /* son.tga in Resources */,
+				4DA0927821C76C16009F18DB /* MoonLike.tga in Resources */,
+				4DA0927721C76C16009F18DB /* Marble.tga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA0923721C7672F009F18DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA0924221C7672F009F18DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DA0921F21C7672E009F18DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA0923321C7672E009F18DB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA0923521C7672F009F18DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA0923E21C7672F009F18DB /* OpenGL_Texture0032Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA0924021C7672F009F18DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA0924921C7672F009F18DB /* OpenGL_Texture0032UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DA0923B21C7672F009F18DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DA0922221C7672E009F18DB /* OpenGL-Texture0032 */;
+			targetProxy = 4DA0923A21C7672F009F18DB /* PBXContainerItemProxy */;
+		};
+		4DA0924621C7672F009F18DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DA0922221C7672E009F18DB /* OpenGL-Texture0032 */;
+			targetProxy = 4DA0924521C7672F009F18DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DA0922E21C7672E009F18DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DA0922F21C7672E009F18DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DA0924B21C7672F009F18DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DA0924C21C7672F009F18DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DA0924E21C7672F009F18DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-Texture0032/OpenGL_Texture0032.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Texture0032/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jie.OpenGL-Texture0032";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DA0924F21C7672F009F18DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OpenGL-Texture0032/OpenGL_Texture0032.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Texture0032/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jie.OpenGL-Texture0032";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DA0925121C7672F009F18DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Texture0032Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jie.OpenGL-Texture0032Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-Texture0032.app/Contents/MacOS/OpenGL-Texture0032";
+			};
+			name = Debug;
+		};
+		4DA0925221C7672F009F18DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Texture0032Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jie.OpenGL-Texture0032Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL-Texture0032.app/Contents/MacOS/OpenGL-Texture0032";
+			};
+			name = Release;
+		};
+		4DA0925421C7672F009F18DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Texture0032UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jie.OpenGL-Texture0032UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-Texture0032";
+			};
+			name = Debug;
+		};
+		4DA0925521C7672F009F18DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OpenGL-Texture0032UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jie.OpenGL-Texture0032UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL-Texture0032";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA0921E21C7672E009F18DB /* Build configuration list for PBXProject "OpenGL-Texture0032" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA0924B21C7672F009F18DB /* Debug */,
+				4DA0924C21C7672F009F18DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA0924D21C7672F009F18DB /* Build configuration list for PBXNativeTarget "OpenGL-Texture0032" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA0924E21C7672F009F18DB /* Debug */,
+				4DA0924F21C7672F009F18DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA0925021C7672F009F18DB /* Build configuration list for PBXNativeTarget "OpenGL-Texture0032Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA0925121C7672F009F18DB /* Debug */,
+				4DA0925221C7672F009F18DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DA0925321C7672F009F18DB /* Build configuration list for PBXNativeTarget "OpenGL-Texture0032UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA0925421C7672F009F18DB /* Debug */,
+				4DA0925521C7672F009F18DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DA0921B21C7672E009F18DB /* Project object */;
+}
